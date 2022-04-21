@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SelfImage</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body id="top">
+    <!-- Header Start -->
+    <header>
+
+        <div class="container">
+            <nav class="navbar navbar-expand-lg p-0">
+                <div class="container">
+                    <a class="navbar-brand d-lg-none d-inline-block " href="#"><img src="images/Logo.png" alt=""></a>
+                    <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <img src="images/menu.png" onclick="changeImage()" id="myclick" alt="">
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul>
+                            <li>
+                                <a class="active" href="#">Home</a>
+                            </li>
+                            <li>
+                                <a href="#">BOOK ONLINE</a>
+                            </li>
+                            <li>
+                                <a href="#" onclick="myFunction3()">SERVICES</a>
+                                <ul id="myDIV3">
+                                    <li><a href="#">sub page title 1</a></li>
+                                    <li><a href="#" onclick="myFunction()">sub page title 2</a>
+                                        <ol id="myDIV">
+                                            <li><a href="#">sub page title 1</a></li>
+                                            <li><a href="#">sub page title 2</a></li>
+                                            <li><a href="#" class="border-bottom-0">sub page title 3</a></li>
+                                        </ol>
+                                    </li>
+                                    <li><a href="#" class="border-bottom-0" onclick="myFunction2()">sub page title 3</a>
+                                        <ol id="myDIV2">
+                                            <li><a href="#">sub page title 1</a></li>
+                                            <li><a href="#">sub page title 2</a></li>
+                                            <li><a href="#" class="border-bottom-0">sub page title 3</a></li>
+                                        </ol>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <a class="navbar-brand d-lg-inline-block d-none" href="#"><img src="images/Logo2.png" alt=""></a>
+                        <ul>
+                            <li>
+                                <a href="#">CONTACT</a>
+                            </li>
+                            <li>
+                                <a href="#">BLOG</a>
+                            </li>
+                            <li>
+                                <a href="#">ABOUT</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Header End -->
+    <!-- Hero Main Start -->
+    <section class="hero-main" style="background-image: url(images/Hero_image.png); background-repeat: no-repeat; background-size: cover;">
+        <div class="container">
+            <div class="hero-text">
+                <h1>We Help Clients Improve Their Overall Self-Image</h1>
+                <p>Most people are unaware that we have two images of ourselves - the outer image and inner image. We are here to help you rebuild the inner (self) image and the outer image.</p>
+            </div>
+        </div>
+    </section>
+    <!-- Hero Main End -->
+    <!-- Section About Start -->
+    <section class="about">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 order-lg-1 order-2">
+                    <div class="content">
+                        <div class="title">
+                            <span>ABOUT</span>
+                            <h2>What is SelfImage</h2>
+                        </div>
+                        <p>SelfImage as we know it today was first discovered by Dr. Maxwell Maltz who was involved with reconstructive surgery, commonly referred to as a plastic surgery. He found that when he did surgery on a patient and possibly removed
+                            or repaired some form of disfiguration to the persons face, there was not only a great change to the persons face, there was a noticeable psychological improvement.</p>
+                        <a href="#" class="btn cta-primary">Read More <i><img src="images/arrow-up.svg" alt=""></i></a>
+
+                    </div>
+                </div>
+                <div class="col-lg-6 order-lg-2 order-1">
+                    <div class="img-holder">
+                        <img src="images/Image.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Section About End -->
+    <!-- Section Services Start  -->
+    <section class="services">
+        <div class="container">
+            <div class="title">
+                <span>SERVICES</span>
+                <h2>Rebuild The Inner Self <br> - Outer Image</h2>
+            </div>
+        </div>
+        <div class="row ">
+            <div class="col-lg-8">
+                <div class="cardServices" style="background-image:url(images/EducationImage.png) ">
+                    <div class="text-box box-bottom">
+                        <p>Love. Confidence. Education.</p>
+                        <a href="#">Read More <i><img src="images/arrow-dark.svg" alt=""></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="cardServices" style="background-image:url(images/reflectionImage.png) ">
+
+                    <div class="text-box box-top">
+                        <p>Inner. Image. Awarenes.</p>
+                        <a href="#">Read More <i><img src="images/arrow-dark.svg" alt=""></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-12">
+                <div class="cardServices" style="background-image:url(images/consultation.png) ">
+
+                    <div class="container">
+                        <div class="text-box">
+                            <p>Inner. Image. Awarenes.</p>
+                            <a href="#">Read More <i><img src="images/arrow-dark.svg" alt=""></i></a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-lg-4 mb-0">
+                <div class="cardServices" style="background-image:url(images/manImage.png) ">
+
+                    <div class="text-box box-bottom-man">
+                        <p>Men. Skincare. Style.</p>
+                        <a href="#">Read More <i><img src="images/arrow-dark.svg" alt=""></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-8">
+                <div class="cardServices" style="background-image:url(images/girlImage.png) ">
+                    <div class="text-box white box-top-girl">
+                        <p>Colour. Image. Style.</p>
+                        <a href="#">Read More <i><img src="images/arrow-dark.svg" alt=""></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Section Services End  -->
+    <!-- Section About Founder Start -->
+    <section class="about-founder">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5">
+                    <div class="img-holder">
+                        <img src="images/SelfImage.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="content">
+                        <h2>About Sarahjane</h2>
+                        <p>What is it that makes some people so confident, so successful? Is it luck? Is it genetics? Up until 10 years ago the general consensus would have been yes but breakthroughs in current day science and phycology has shown this not
+                            to be the case. We have come to learn that everyone has two images. One image is the physical image that we portray to the world, the other image is our internal image which is how we feel emotionally about ourselves. It is
+                            only when the internal image is transformed that the outer image is transformed also. At SelfImage we offer the full package of not only transforming our outer image with makeup, fashion, hair etc. but also transforming your
+                            inner self-image giving you the confidence you require to become the successful person you were always meant to be!</p>
+                        <h4>Founder</h4>
+                        <p>With over 10 years of experience in the beauty and fashion industries, from beginning her career as a hairdresser / makeup artist and progressing to fashion styling and retail management, Sarahjane has always had a passion for
+                            the education and one’s personal appearance. What makes her stand out in the industry today is the focus and passion she has for developing personal relationships with her customers, which allows her to help transform their
+                            self-image both internally and externally. Her positive mental attitude, attention to detail and infectious energy will give you the confidence and belief you require to take on any challenge coming your way in the hectic world
+                            we live in today!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Section About Founder End -->
+    <!-- Section Hair Consultaion Start -->
+    <section class="hair-consultant">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 order-lg-1 order-2">
+                    <div class="content">
+                        <h2>Hair Consultation <br> and Styling Lesson</h2>
+                        <p>When it comes to the basics of maintaining your hair you will find that most people are using the wrong shampoo, to the scalp type you have or the texture of your hair. </p>
+                        <p>At SelfImage we provide a one on one personalized service for all hair needs. You will be learn how to maintain your hair, understand your scalp needs, a style and colour that suits your face shape, and basic styles from a day
+                            style to night occasions. </p>
+                    </div>
+                </div>
+                <div class="col-lg-6 order-lg-2 order-1">
+                    <div class="img-holder text-end">
+                        <img src="images/hair.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Section Hair Consultaion End -->
+    <!-- Our Customers Says Start -->
+    <section class="our-customer">
+        <div class="container">
+            <div class="title">
+                <span>TESTIMONIALS</span>
+                <h2>What our happy customer say</h2>
+                <div class="swiperWrapper">
+                    <!-- Swiper -->
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="testimonial-card">
+                                    <div class="icon"><img src="images/quoteIcon.svg" alt=""></div>
+                                    <p>Sarahjane knows hair! I have had her top of my list every time I have a wedding or formal event and she has completely surpassed my expectations every time. She is so skilled in what she does and is precise and particular
+                                        about getting the result to match the clients vision. Most of all she listens to exactly what you want done. Offers valuable advice and creates something even better. She has made me feel a million dollars with
+                                        ther talents and I could not recommend her service more.</p>
+                                    <div class="author">Laura H</div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="testimonial-card">
+                                    <div class="icon"><img src="images/quoteIcon.svg" alt=""></div>
+                                    <p>Sarahjane knows hair! I have had her top of my list every time I have a wedding or formal event and she has completely surpassed my expectations every time. She is so skilled in what she does and is precise and particular
+                                        about getting the result to match the clients vision. Most of all she listens to exactly what you want done. Offers valuable advice and creates something even better. She has made me feel a million dollars with
+                                        ther talents and I could not recommend her service more.</p>
+                                    <div class="author">Laura H</div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="testimonial-card">
+                                    <div class="icon"><img src="images/quoteIcon.svg" alt=""></div>
+                                    <p>Sarahjane knows hair! I have had her top of my list every time I have a wedding or formal event and she has completely surpassed my expectations every time. She is so skilled in what she does and is precise and particular
+                                        about getting the result to match the clients vision. Most of all she listens to exactly what you want done. Offers valuable advice and creates something even better. She has made me feel a million dollars with
+                                        ther talents and I could not recommend her service more.</p>
+                                    <div class="author">Laura H</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"><img src="images/right-arrow.svg" alt=""></div>
+                    <div class="swiper-button-prev"><img src="images/left-arrow.svg" alt=""></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Our Customers Says End -->
+    <!-- Consultation Start -->
+    <section class="consultation-book">
+        <div class="container">
+            <div class="media">
+                <div class="media-body">
+                    <h3>We invite you to atake the first step for a new start in 2022</h3>
+                </div>
+                <a href="#" class="btn cta-primary">Book Your Consultation <i><img src="images/arrow-up.svg"
+                            alt=""></i></a>
+            </div>
+        </div>
+    </section>
+    <!-- Consultation End -->
+    <!-- Footer Start -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="address">SelfImage, Timahoe, Portlaoise, Co. <br> Laois, R32 PX56</div>
+                </div>
+                <div class="col-md-4">
+                    <div class="contact">
+                        Phone: <a href="tel:+353879535616">+353-87-9535616</a> <br> Email: <a href="mailto:info@selfimage.ie">info@selfimage.ie</a></div>
+                </div>
+                <div class="col-md-4">
+                    <ul class="social-links">
+                        <li>
+                            <a href="#"><img src="images/linkdin.svg" alt=""></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="images/twitter.svg" alt=""></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="images/facebook.svg" alt=""></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyrights">
+                SelfImage 2022. © All Rights Reserved
+            </div>
+        </div>
+    </footer>
+    <a href="#top" id="return-to-top"><img src="images/up-arrow.svg" alt="Up Arrow"></a>
+    <!-- Footer End -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
